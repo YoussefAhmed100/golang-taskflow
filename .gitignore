@@ -1,0 +1,41 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Go build artifacts
+task-api
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go module/vendor
+vendor/
+
+# Go build cache
+/bin/
+/build/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Air (if using live reload)
+tmp/
