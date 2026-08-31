@@ -106,6 +106,3 @@ func TestService_Create_MultipleTasks(t *testing.T) {
 	assert.NotZero(t, createdSecond.ID)
 	assert.NotEqual(t, createdFirst.ID, createdSecond.ID)
 }
-func TestTemporaryFailure(t *testing.T) {
-	t.Fatal("intentional CI failure")
-}
