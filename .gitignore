@@ -33,9 +33,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Docker
-docker-compose.override.yml
-
-# Air (if using live reload)
-tmp/
