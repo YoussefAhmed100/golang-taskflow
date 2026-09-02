@@ -1,5 +1,5 @@
 # Go Task Manager API
-
+#tests ci
 A RESTful Task Management API built in **Go**, using **Gin**, **GORM**, and **PostgreSQL**, containerized with **Docker Compose**, and load-balanced across multiple instances with **Nginx**.
 
 This project started as a Go fundamentals exercise and evolved step by step into a small, production-style backend — the goal was not just to build a CRUD API, but to understand *why* each architectural decision (layering, connection pooling, load balancing, migrations) is made in a real backend system.
